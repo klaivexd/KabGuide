@@ -55,7 +55,7 @@ public class MapActivity extends AppCompatActivity{
     private final OnIndicatorPositionChangedListener onIndicatorPositionChangedListener = new OnIndicatorPositionChangedListener() {
         @Override
         public void onIndicatorPositionChanged(@NonNull Point point) {
-            mapView.getMapboxMap().setCamera(new CameraOptions.Builder().center(point).zoom(20.0).build());
+            mapView.getMapboxMap().setCamera(new CameraOptions.Builder().center(point).zoom(35.0).build());
             getGestures(mapView).setFocalPoint(mapView.getMapboxMap().pixelForCoordinate(point));
         }
     };
@@ -106,7 +106,7 @@ public class MapActivity extends AppCompatActivity{
         mapView.getMapboxMap().loadStyleUri(Style.SATELLITE, new Style.OnStyleLoaded() {
             @Override
             public void onStyleLoaded(@NonNull Style style) {
-                mapView.getMapboxMap().setCamera(new CameraOptions.Builder().zoom(20.0).build());
+                mapView.getMapboxMap().setCamera(new CameraOptions.Builder().zoom(35.0).build());
                 LocationComponentPlugin locationComponentPlugin = getLocationComponent(mapView);
                 locationComponentPlugin.setEnabled(true);
                 LocationPuck2D locationPuck2D = new LocationPuck2D();
