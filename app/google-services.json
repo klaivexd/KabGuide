@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "641349762743",
+    "project_id": "kabguide-55a5f",
+    "storage_bucket": "kabguide-55a5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641349762743:android:7bece32fa99067bb48d732",
+        "android_client_info": {
+          "package_name": "com.example.kabguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641349762743-4nl4gpa88m7iluv7loku0es2nf287nvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKFSA6EkcKYLviGUwNdzLhC2G5gaZ5LgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641349762743-4nl4gpa88m7iluv7loku0es2nf287nvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

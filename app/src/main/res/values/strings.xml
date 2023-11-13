@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kabguide</string>
+    <string name="default_web_client_id">
+        641349762743-4nl4gpa88m7iluv7loku0es2nf287nvj.apps.googleusercontent.com
+    </string>
+    <string name="facebook_app_id">1960691024295907</string>
+    <string name="fb_login_protocol_scheme">fb1960691024295907</string>
+    <string name="facebook_client_token">c437b1edc8340a27bfbb054885ca9363</string>
+    <string name="mapbox_access_token">sk.eyJ1Ijoia2xhaXZleGQiLCJhIjoiY2xuOHJvN2lkMDBseDJrcDV3aDZqZjZzZyJ9.XkU1zT-LFR_KR3zCv7kCQw</string>
+</resources>
